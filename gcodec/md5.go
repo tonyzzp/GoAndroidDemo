@@ -5,6 +5,8 @@ import (
 	"encoding/hex"
 	"io"
 	"os"
+
+	_ "golang.org/x/mobile/bind"
 )
 
 func MD5String(text string) string {

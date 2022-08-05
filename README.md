@@ -3,6 +3,6 @@
 
 ### android lib
 
-运行 build_aar.bat 可将相关go代码编译为aar文件，里面包含so和java代码。导入到android项目即可使用。
-projects/android 是事例
-
+1. 运行`build_aar.bat`。会编译go代码，生成so和需要的java，打包为aar放到build目录。
+2. 运行projects/android项目
+3. 

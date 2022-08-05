@@ -3,6 +3,8 @@ package ghttp
 import (
 	"io/ioutil"
 	"net/http"
+
+	_ "golang.org/x/mobile/bind"
 )
 
 func Get(url string) (string, error) {
